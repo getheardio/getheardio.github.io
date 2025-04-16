@@ -5,6 +5,7 @@ body {
 .logo {
     position: relative;
     left: 20px;
+    top: 0;
     width: auto;
     height: 5%;
     max-width: 12.5%;
