@@ -8,6 +8,7 @@ body {
     left: 20px; /* Adjust the left position as needed */
     width: auto; /* Adjust the size as needed */
     height: 5%;
+    max-width: 10%; /* Adjust as needed */
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
 #heroImage {
