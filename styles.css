@@ -29,7 +29,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
+<nav class="navbar navbar-expand-lg justify-content-center">
 .navbar li {
     display: inline;
 }
