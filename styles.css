@@ -3,14 +3,21 @@ body {
     color: #ecf0f1; /* Light text */
 }
 .logo {
-    position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    left: 20px; /* Adjust the left position as needed */
-    width: auto; /* Adjust the size as needed */
+    position: relative;
+    left: 20px;
+    width: auto;
     height: 7.5%;
-    max-width: 15%; /* Adjust as needed */
+    max-width: 15%;
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
+
+@media screen and (max-width: 600px) {
+    .logo {
+        height: 10%; /* Increase height for smaller screens */
+        max-width: 30%; /* Allow the logo to take up more width on narrow devices */
+    }
+}
+
 #heroImage {
     height: 100vh;
     background-size: cover;
