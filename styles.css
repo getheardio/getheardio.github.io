@@ -20,26 +20,6 @@ body {
         max-width: 30%; /* Allow the logo to take up more width on narrow devices */
     }
 }
-.github-logo-container {
-    position: absolute;
-    top: 20px;
-    right: 20px; /* Ensure it aligns to the right */
-    background-color: #000; /* Dark background */
-    padding: 10px;
-    width: 60px;
-    text-align: center; /* Center the icon within the container */
-    border-radius: 8px;
-}
-
-
-.github-logo-container a img {
-    filter: invert(1); /* Makes the logo white */
-    transition: transform 0.3s ease-in-out;
-}
-
-.github-logo-container a img:hover {
-    transform: scale(1.2);
-}
 
 #heroImage {
     height: 100vh;
