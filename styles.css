@@ -21,13 +21,14 @@ body {
 .github-logo-container {
     position: absolute;
     top: 20px;
-    right: 20px
+    right: 20px; /* Ensure it aligns to the right */
     background-color: #000; /* Dark background */
     padding: 10px;
     width: 60px;
-    text-align: center;
+    text-align: center; /* Center the icon within the container */
     border-radius: 8px;
 }
+
 
 .github-logo-container a img {
     filter: invert(1); /* Makes the logo white */
