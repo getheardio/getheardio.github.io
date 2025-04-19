@@ -13,12 +13,36 @@ body {
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
 
+
+.owl-icon { 
+    position: absolute;
+    right: 100px; 
+    top: 10px; 
+    font-size: 36px; 
+    width: auto; 
+    height: 7.5%;
+    max-width: 12.5%; 
+    z-index: 1000; /* Ensures the logo is on top of other elements */ }
+}
+
+.owl-icon :hover {
+    color: darkorange;  /* Changes color when hovered */
+}
+
+
 @media screen and (max-width: 600px) {
     .logo {
         height: 10%; /* Increase height for smaller screens */
         max-width: 30%; /* Allow the logo to take up more width on narrow devices */
     }
 }
+@media screen and (max-width: 600px) {
+    .owl-icon {
+        font-size: 28px; /* Adjust font size for smaller screens */
+        right: 50px;     /* Move icon closer to the center */
+    }
+}
+
 
 #heroImage {
     height: 100vh;
