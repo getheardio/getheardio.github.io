@@ -13,7 +13,6 @@ body {
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
 
-
 .owl-icon { 
     position: absolute;
     right: 100px; 
