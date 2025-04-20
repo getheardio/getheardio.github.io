@@ -28,6 +28,10 @@ body {
     color: darkorange;  /* Changes color when hovered */
 }
 
+.logo :hover {
+    color: darkorange;  /* Changes color when hovered */
+}
+
 
 @media screen and (max-width: 600px) {
     .logo {
