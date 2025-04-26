@@ -13,15 +13,6 @@ body {
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
 
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #ecf0f1;
-    color: white;
-}
-
 .owl-icon { 
     position: absolute;
     right: 100px; 
