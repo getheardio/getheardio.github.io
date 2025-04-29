@@ -24,21 +24,6 @@ body {
     z-index: 1000; /* Ensures the logo is on top of other elements */ }
 }
 
-.dashboard-icon { 
-    position: absolute;
-    right: 150px; 
-    top: 10px; 
-    font-size: 36px; 
-    width: auto; 
-    height: 7.5%;
-    max-width: 12.5%; 
-    z-index: 1000; /* Ensures the logo is on top of other elements */ }
-}
-
-.dashboard.icon :hover{
-    color: darkorange;  /* Changes color when hovered */
-}
-
 .owl-icon :hover {
     color: darkorange;  /* Changes color when hovered */
 }
@@ -60,7 +45,6 @@ body {
         right: 50px;     /* Move icon closer to the center */
     }
 }
-
 
 #heroImage {
     height: 100vh;
