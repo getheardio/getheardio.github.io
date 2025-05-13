@@ -8,30 +8,14 @@ body {
     left: 20px;
     top: 10px;
     width: auto;
-    height: 7.5%;
+    height: 10%;
     max-width: 12.5%;
     z-index: 1000; /* Ensures the logo is on top of other elements */
 } 
 
-.owl-icon { 
-    position: absolute;
-    right: 100px; 
-    top: 10px; 
-    font-size: 36px; 
-    width: auto; 
-    height: 7.5%;
-    max-width: 12.5%; 
-    z-index: 1000; /* Ensures the logo is on top of other elements */ }
-}
-
-.owl-icon :hover {
-    color: darkorange;  /* Changes color when hovered */
-}
-
 .logo :hover {
     color: darkorange;  /* Changes color when hovered */
 }
-
 
 @media screen and (max-width: 600px) {
     .logo {
