@@ -2,9 +2,10 @@
 
 // Array of image URLs
 const images = [
-    'nasa-unsplash.jpg',
-    'javier-miranda-unsplash.jpg',
-    'markus-spiskeI-unsplash.jpg'
+    'carlos-muza-unsplash.jpg',
+//    'nasa-unsplash.jpg',
+//   'javier-miranda-unsplash.jpg',
+//    'markus-spiskeI-unsplash.jpg'
 ];
 
 // Function to change the hero image
@@ -16,6 +17,7 @@ function changeHeroImage() {
 
 // Initial image load
 changeHeroImage();
+
 
 
 
