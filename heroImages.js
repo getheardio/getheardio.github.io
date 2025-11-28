@@ -14,10 +14,8 @@ function changeHeroImage() {
     heroImageElement.style.backgroundImage = `url('${images[randomIndex]}')`;
 }
 
-// Change the hero image periodically (e.g., every 10 seconds)
-setInterval(changeHeroImage, 10000);
-
 // Initial image load
 changeHeroImage();
+
 
 
