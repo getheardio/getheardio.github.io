@@ -37,22 +37,11 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
 }
 .hero h1 {
     font-size: 4rem;
     margin-top: 20px; /* Adjust the value as needed */
 }
 
-.hero {
-  position: relative;
-  background: url('hero.jpg') center/cover no-repeat;
-}
-
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0,0,0,0.4); /* grey overlay */
-}
 
