@@ -2,7 +2,8 @@
 
 // Array of image URLs
 const images = [
-    'carlos-muza-unsplash.jpg',
+//   'carlos-muza-unsplash.jpg',
+    'dillon-shook-unsplash.jpg'
 //    'nasa-unsplash.jpg',
 //   'javier-miranda-unsplash.jpg',
 //    'markus-spiskeI-unsplash.jpg'
@@ -17,6 +18,7 @@ function changeHeroImage() {
 
 // Initial image load
 changeHeroImage();
+
 
 
 
